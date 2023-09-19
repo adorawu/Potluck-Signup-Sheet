@@ -1,0 +1,44 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lavenderblush;
+    color: rgb(46, 46, 56);
+    font-size: 18px;
+}
+
+input {
+    margin: 16px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type='submit'], input[type='button'], input[type='reset'], button {
+    margin: 16px 8px;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: rgb(248, 188, 193);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type='submit']:hover, input[type='button']:hover, input[type='reset']:hover, button:hover {
+    background-color: rgb(203, 105, 113);
+}
+
+h1, h2, h3 {
+    font-size: 36px;
+}
+
+#ajaxDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
